@@ -1,0 +1,139 @@
+/*General rules*/
+body {
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.body {
+    margin: 4% 15% 0 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 70px;
+}
+
+footer{
+    margin: 4% 5% 4% 5%;
+}
+
+/*Nav bar*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 5% 1% 4%;
+    height: 50px;
+}
+
+.logo {
+    margin: 10px 20px;
+    color: white;
+    width: 300px;
+    height: 90px;
+}
+
+nav {
+    display: inline-flex;
+}
+
+a {
+    padding: 10px;
+    color: seashell;
+    text-decoration: underline;
+}
+
+a:hover {
+    color:lightseagreen;
+}
+
+/*Mission Section*/
+
+.Mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(./img-mission-background.jpg);
+    margin: 50px 0 50px 0;
+    height: 1000px;
+    opacity: 0.6;
+    border: 0.5em solid white;
+}
+
+.missiont {
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    width: 2100px;
+}
+
+.mt {
+    font-size: 100px;
+}
+
+
+/*Products Section*/
+.Products{
+    text-align: center;
+    height: 1800px;
+}
+
+.offer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1800px;
+    height: 800px;
+}
+
+.innerOffer{
+    margin: 40px 0;
+    text-decoration: underline;
+}
+
+.innerOffer:hover {
+    color:lightseagreen;
+}
+
+.tom-pic{
+    width: 500px;
+    height: 400px;
+    border: 0.2em solid white
+}
+
+.locationt {
+    text-decoration: underline;
+}
+
+/*Location Section*/
+
+.Locations{
+    text-align: center;
+    height: 1000px;
+    background-image: url(img-locations-background.jpg);
+    opacity: 0.6;
+    border: 0.5em solid white;
+    width: 2100px;
+}
+
+.locations2{
+    color: black;
+    font-weight: bolder;
+}
+
+.address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: black;
+}
+
+.contact {
+    text-align: center;
+}

@@ -1,20 +1,21 @@
 /*General rules*/
 body {
-    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
     color: white;
     background-color: black;
     opacity: 0.9;
 }
 
 .body {
-    margin: 4% 15% 0 15%;
+    margin: 0.5% 15% 0 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 h3 {
-    font-size: 70px;
+    font-size: 22px;
 }
 
 footer{
@@ -26,15 +27,15 @@ footer{
 header {
     display: flex;
     justify-content: space-between;
-    margin: 1% 5% 1% 4%;
-    height: 50px;
+    margin: 1% 5% 0% 4%;
+    height: 69px;
 }
 
 .logo {
-    margin: 10px 20px;
+    margin: 10px 20px 0 20px;
     color: white;
-    width: 300px;
-    height: 90px;
+    width: 150px;
+    height: 50px;
 }
 
 nav {
@@ -42,13 +43,15 @@ nav {
 }
 
 a {
-    padding: 10px;
+    padding: 10px 10px 0 0;
     color: seashell;
     text-decoration: underline;
 }
 
 a:hover {
     color:lightseagreen;
+    cursor: pointer;
+    font-size: large;
 }
 
 /*Mission Section*/
@@ -59,8 +62,7 @@ a:hover {
     align-items: center;
     text-align: center;
     background-image: url(./img-mission-background.jpg);
-    margin: 50px 0 50px 0;
-    height: 1000px;
+    height: 700px;
     opacity: 0.6;
     border: 0.5em solid white;
 }
@@ -69,61 +71,64 @@ a:hover {
     background-color: black;
     justify-content: center;
     text-align: center;
-    width: 2100px;
+    width: 1200px;
 }
 
 .mt {
-    font-size: 100px;
+    font-size: 35px;
 }
 
 
 /*Products Section*/
+
 .Products{
     text-align: center;
-    height: 1800px;
 }
 
 .offer {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 1800px;
-    height: 800px;
+    width: 1000px;
 }
 
 .innerOffer{
-    margin: 40px 0;
+    margin: 10px 0;
     text-decoration: underline;
+    font-size: 18px;
 }
 
 .innerOffer:hover {
     color:lightseagreen;
+    font-size: 20px;
+    cursor: pointer
 }
 
 .tom-pic{
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     border: 0.2em solid white
 }
 
-.locationt {
-    text-decoration: underline;
+.tomtitle{
+    font-size: 40px;
 }
 
 /*Location Section*/
 
 .Locations{
     text-align: center;
-    height: 1000px;
+    height: 500px;
     background-image: url(img-locations-background.jpg);
     opacity: 0.6;
     border: 0.5em solid white;
-    width: 2100px;
+    width: 1200px;
 }
 
 .locations2{
     color: black;
     font-weight: bolder;
+    font-size: larger;
 }
 
 .address {
@@ -131,9 +136,32 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
+}
+
+.address2{
+    padding: 0 80px;
     background-color: black;
 }
 
+.locationt {
+    text-decoration: underline;
+}
+
+.locationt:hover {
+    color:lightseagreen;
+    font-size: 35px;
+    cursor: pointer
+}
+
+
+/*Footer Section*/
+
 .contact {
     text-align: center;
+}
+
+.contactinfo:hover {
+    color:lightseagreen;
+    cursor: pointer;
+    font-size: 22.5px;
 }

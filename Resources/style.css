@@ -11,7 +11,6 @@ body {
     margin: 0.5% 15% 0 15%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 h3 {
@@ -25,14 +24,15 @@ footer{
 /*Nav bar*/
 
 header {
+    margin: 0.5% 15% 0 12%;
     display: flex;
     justify-content: space-between;
-    margin: 1% 5% 0% 4%;
+    text-align: end;
     height: 69px;
+    width: 75%;
 }
 
 .logo {
-    margin: 10px 20px 0 20px;
     color: white;
     width: 150px;
     height: 50px;
@@ -43,7 +43,7 @@ nav {
 }
 
 a {
-    padding: 10px 10px 0 0;
+    padding: 0 10px;
     color: seashell;
     text-decoration: underline;
 }
@@ -62,7 +62,7 @@ a:hover {
     align-items: center;
     text-align: center;
     background-image: url(./img-mission-background.jpg);
-    height: 700px;
+    height: 800px;
     opacity: 0.6;
     border: 0.5em solid white;
 }
@@ -82,7 +82,9 @@ a:hover {
 /*Products Section*/
 
 .Products{
-    text-align: center;
+    text-align: center; 
+    margin: 30px 0 30px 0;
+    height: 750px;
 }
 
 .offer {
@@ -118,11 +120,10 @@ a:hover {
 
 .Locations{
     text-align: center;
-    height: 500px;
+    height: 600px;
     background-image: url(img-locations-background.jpg);
     opacity: 0.6;
     border: 0.5em solid white;
-    width: 1200px;
 }
 
 .locations2{
@@ -136,6 +137,8 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
+    margin-top: 30px;
+    height: 400px;
 }
 
 .address2{

@@ -62,6 +62,9 @@ a:hover {
     align-items: center;
     text-align: center;
     background-image: url(./img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 800px;
     opacity: 0.6;
     border: 0.5em solid white;
